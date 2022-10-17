@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ativa Saúde - Consultas e Exames</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul id="menu">
+          <li><a href="Pagina Principal.html">Página Principal</a></li>
+          <br />
+          <li><a href="Sobre a Clinica.html">Sobre a clínica</a></li>
+          <br />
+          <li><a href="Horario de Atendimento.html">Horário de Atendimento</a></li>
+          <br />
+          <li><a href="Contato.html">Contato</a></li>
+          <br />
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="imagens/contato.png" width="320" alt="imagem" />
+        </div>
+
+        <div class="content">
+          <h2>Fale Conosco</h2>
+          <p>
+            (011) 4712-1699
+          </p>
+          <br />
+          <br />
+          <p>
+            Rua Santana, 348 - Vila Marques, São Roque - SP - Cep: 18130-555
+          </p>
+          <br />
+          <br />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58526.92485958805!2d-47.16760646477594!3d-23.534919139689972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf12acb56b6e03%3A0x1bbf40ce3d5a70a3!2zU8OjbyBSb3F1ZSwgU1A!5e0!3m2!1spt-BR!2sbr!4v1666019830308!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br />
+          <br />
+        </div>
+
+        <div class="footer">
+          <form id="#" role="form" method="post" action="#">
+              <h2>Vamos agendar a sua consulta?</h2>
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nome"
+                  name="nome"
+                  required="required"
+                  placeholder="Nome completo"
+                />
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required="required"
+                  placeholder="Seu e-mail"
+                />           
+                <label for="date">Selecione a data</label>
+                <input
+                  type="date"
+                  name="data"
+                  required="required"
+                  value=""
+                  class="form-control"
+                />             
+                <label for="select">Selecione a especialidade</label>
+                <select
+                  class="form-control"
+                  name="especialidade"
+                  required="required"
+                >
+                <option>Clínica geral</option>
+                <option>Psicologia</option>
+                <option>Pediatria</option>
+                <option>Oftalmologia</option>
+                </select>
+                <label for="telephone">Telefone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefone"
+                  name="telefone"
+                  required="required"
+                  placeholder="Telefone"
+                />
+                <button
+                  type="submit"
+                  class="form-control"
+                  id="cf-submit"
+                  name="submit"
+                >
+                  Agendar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

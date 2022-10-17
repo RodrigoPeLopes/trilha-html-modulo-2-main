@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ativa Saúde - Consultas e Exames</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul id="menu">
+          <li><a href="Pagina Principal.html">Página Principal</a></li>
+          <br />
+          <li><a href="Sobre a Clinica.html">Sobre a clínica</a></li>
+          <br />
+          <li><a href="Horario de Atendimento.html">Horário de Atendimento</a></li>
+          <br />
+          <li><a href="Contato.html">Contato</a></li>
+          <br />
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="imagens/Horario de Atendimento.png" width="320" alt="imagem" />
+        </div>
+
+        <div class="content">
+          <p><strong>Horário de funcionamento:&nbsp;</strong></p>
+          <br />
+          <table summary="Esta tabela se refere aos horário de atendimento" border="1" width="400" align="center">
+            <tr bgcolor="#808080">
+                <td>
+                  <strong>Serviços</strong>
+                </td>
+                <td>
+                  <strong>Segunda a Sexta</strong>
+                </td>
+                <td>
+                  <strong>Sábados</strong>
+                </td>
+                <td>
+                  <strong>Feriados</strong>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                Clinico Geral
+              </td>
+              <td>
+                08h - 19h
+              </td>
+              <td>
+                08h - 14h
+              </td>
+              <td>
+                08h - 14h
+              </td>
+          </tr>
+          <tr>
+            <td>
+              Psicologia
+            </td>
+            <td>
+              08h - 19h
+            </td>
+            <td>
+              08h - 14h
+            </td>
+            <td>
+              08h - 14h
+            </td>
+        </tr>
+        <tr>
+          <td>
+            Pediatria
+          </td>
+          <td>
+            08h - 19h
+          </td>
+          <td>
+            08h - 18h
+          </td>
+          <td>
+            - 
+          </td>
+      </tr>
+      <tr>
+        <td>
+          Oftalmologia
+        </td>
+        <td>
+          08h - 19h
+        </td>
+        <td>
+          08h - 18h
+        </td>
+        <td>
+          -
+        </td>
+    </tr>
+          
+          </table>    
+        </div>
+        <div class="footer">
+          <form id="#" role="form" method="post" action="#">
+              <h2>Vamos agendar a sua consulta?</h2>
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nome"
+                  name="nome"
+                  required="required"
+                  placeholder="Nome completo"
+                />
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required="required"
+                  placeholder="Seu e-mail"
+                />           
+                <label for="date">Selecione a data</label>
+                <input
+                  type="date"
+                  name="data"
+                  required="required"
+                  value=""
+                  class="form-control"
+                />             
+                <label for="select">Selecione a especialidade</label>
+                <select
+                  class="form-control"
+                  name="especialidade"
+                  required="required"
+                >
+                <option>Clínica geral</option>
+                <option>Psicologia</option>
+                <option>Pediatria</option>
+                <option>Oftalmologia</option>
+                </select>
+                <label for="telephone">Telefone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefone"
+                  name="telefone"
+                  required="required"
+                  placeholder="Telefone"
+                />
+                <button
+                  type="submit"
+                  class="form-control"
+                  id="cf-submit"
+                  name="submit"
+                >
+                  Agendar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

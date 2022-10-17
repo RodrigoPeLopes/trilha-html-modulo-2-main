@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ativa Saúde - Consultas e Exames</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div id="sobre" ></div>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul id="menu">
+          <li><a href="Pagina Principal.html">Página Principal</a></li>
+          <br />
+          <li><a href="Sobre a Clinica.html">Sobre a Clínica</a></li>
+          <br />
+          <li><a href="Horario de Atendimento.html">Horário de Atendimento</a></li>
+          <br />
+          <li><a href="Contato.html">Contato</a></li>
+          <br />
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="imagens/Sobre a Clinica.png" alt="logo ativa saúde" />
+        </div>
+
+        <div class="content">
+          <h2>Bem Vindo a Ativa Saúde</h2>
+          <p>
+            A Ativa Saúde é conhecida em São Roque e região pela qualidade no
+            seu atendimento. Sempre preocupada com o atendimento de seu seus
+            pacientes e buscando disponibilizar o maior número de especialidades
+            médicas em um só lugar, de forma mais cômoda e eficiente.
+          </p>
+          <br />
+          <br />
+          <p>
+            A Ativa Saúde traz em seu corpo clínico médicos com o mais alto
+            nível de formação, incluindo clínicos, obstetras, nutricionistas,
+            terapeutas, ginecologistas, oftalmologistas, Urologistas,
+            Neurologistas, Ortopedia e Reumatologia dentre outras diversas
+            especialidades médicas.
+          </p>
+          <br />
+          <br />
+          <p>
+            Atendemos diversos convênios médicos e temos preços e condições
+            especiais para quem não possui convenio e precisa de uma consulta a
+            preços acessíveis.
+          </p>
+          <br />
+          <br />
+        </div>
+
+        <div class="footer" >
+          <form id="#" role="form" method="post" action="#">
+              <h2>Vamos agendar a sua consulta?</h2>
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nome"
+                  name="nome"
+                  required="required"
+                  placeholder="Nome completo"
+                />
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required="required"
+                  placeholder="Seu e-mail"
+                />           
+                <label for="date">Selecione a data</label>
+                <input
+                  type="date"
+                  name="data"
+                  required="required"
+                  value=""
+                  class="form-control"
+                />             
+                <label for="select">Selecione a especialidade</label>
+                <select
+                  class="form-control"
+                  name="especialidade"
+                  required="required"
+                >
+                <option>Clínica geral</option>
+                <option>Psicologia</option>
+                <option>Pediatria</option>
+                <option>Oftalmologia</option>
+                </select>
+                <label for="telephone">Telefone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefone"
+                  name="telefone"
+                  required="required"
+                  placeholder="Telefone"
+                />
+                <button
+                  type="submit"
+                  class="form-control"
+                  id="cf-submit"
+                  name="submit"
+                >
+                  Agendar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
